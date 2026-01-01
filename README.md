@@ -60,4 +60,5 @@ Full detailed steps are available here 👇
 ---
 
 ## 🌐 Accessing Tomcat in Browser
+http://<EC2-Public-IP>:8080
 
