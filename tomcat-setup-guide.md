@@ -121,8 +121,8 @@ Gracefully stops the Tomcat service.
 
 Add sections like:
 
-Browser Access (http://<EC2-Public-IP>:8080)
+- Browser Access (http://<EC2-Public-IP>:8080)
 
-Security Group rule for port 8080
+- Security Group rule for port 8080
 
-Tomcat verification commands
+- Tomcat verification commands
