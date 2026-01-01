@@ -55,7 +55,8 @@ This repository is created as part of hands-on DevOps / Linux practice.
 
 Full detailed steps are available here 👇  
 
-👉 **Refer: `tomcat-setup-guide.md`**
+👉 Refer: [tomcat-setup-guide.md](tomcat-setup-guide.md)
+
 
 ---
 
