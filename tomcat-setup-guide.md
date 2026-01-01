@@ -2,12 +2,6 @@
 
 This guide walks through installing Java, downloading Apache Tomcat, and starting the Tomcat server on an Ubuntu Linux EC2 instance.
 
-🖥️ Check the Hostname
-
-```
-cat /etc/hostname
-```
-
 Displays the system hostname to verify the machine identity.
 
 🛠️ Update System Packages
@@ -20,11 +14,6 @@ apt update → refreshes the package index
 apt upgrade -y → installs latest updates automatically
 
 Keeping the system updated ensures stability and security.
-
-🔁 Reboot the System
-```
-sudo init 6
-```
 
 Reboots the instance to apply updates or configuration changes.
 
@@ -119,10 +108,13 @@ Gracefully stops the Tomcat service.
 
 🎯 Next Step (Recommended)
 
-Add sections like:
 
-- Browser Access (http://<EC2-Public-IP>:8080)
+To Verify
 
 - Security Group rule for port 8080
 
-- Tomcat verification commands
+- Browser Access (http://<EC2-Public-IP>:8080)
+
+
+
+
